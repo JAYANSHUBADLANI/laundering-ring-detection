@@ -1,0 +1,3 @@
+split,labelled_laundering,in_named_ring,labelled_not_in_ring,ring_txn_not_labelled,ring_coverage_pct
+HI-Small,5177,3209,1968,0,62.0
+LI-Small,3565,1023,2542,0,28.7

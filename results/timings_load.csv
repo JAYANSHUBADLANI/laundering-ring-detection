@@ -1,0 +1,7 @@
+split,stage,seconds,rows
+HI-Small,load_transactions,8.55,5078345
+HI-Small,load_accounts,0.3,518581
+HI-Small,load_patterns,0.02,3209
+LI-Small,load_transactions,11.69,6924049
+LI-Small,load_accounts,0.36,712688
+LI-Small,load_patterns,0.01,1023

@@ -1,0 +1,3 @@
+split,dense_end,temporal_cut,last_ts,train_txns,train_laundering,test_txns,test_laundering,tail_txns,tail_laundering
+HI-Small,2022-09-11,2022-09-07 14:52:12,2022-09-18 16:18:00,3554066,2856,1523171,1666,1108,655
+LI-Small,2022-09-11,2022-09-07 14:48:00,2022-09-17 15:28:00,4846510,2231,2077316,1200,223,134

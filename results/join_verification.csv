@@ -1,0 +1,5 @@
+split,key,pattern_rows,matched_exactly_one,matched_multiple,matched_none,match_rate_pct,total_matched_txn_rows,seconds
+HI-Small,full,3209,3209,0,0,100.0,3209,0.29
+HI-Small,minimal,3209,3209,0,0,100.0,3209,0.12
+LI-Small,full,1023,1023,0,0,100.0,1023,0.37
+LI-Small,minimal,1023,1023,0,0,100.0,1023,0.37

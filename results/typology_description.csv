@@ -1,0 +1,17 @@
+split,typology,rings,transactions,median_ring_size,median_span_days,max_span_days,median_accounts,median_currencies,max_currencies,median_formats,accounts,reuse_pct
+HI-Small,BIPARTITE,49,263,4.0,1.01,1.98,8.0,2.0,7,1.0,491,10.6
+HI-Small,CYCLE,54,287,4.0,3.0,3.98,4.0,2.0,9,1.0,271,14.0
+HI-Small,FAN-IN,40,318,8.0,3.54,3.99,9.0,1.0,1,1.0,338,11.2
+HI-Small,FAN-OUT,48,342,7.0,3.19,4.0,8.0,2.0,8,1.0,359,12.0
+HI-Small,GATHER-SCATTER,51,716,14.0,6.28,8.43,15.0,3.0,8,1.0,685,6.3
+HI-Small,RANDOM,41,191,3.0,1.92,3.82,4.0,2.0,6,1.0,211,14.7
+HI-Small,SCATTER-GATHER,44,626,14.0,3.7,4.0,9.0,3.0,9,1.0,369,8.1
+HI-Small,STACK,43,466,10.0,3.05,4.75,15.0,3.0,9,1.0,663,6.3
+LI-Small,BIPARTITE,16,129,8.0,1.63,1.99,16.0,2.0,3,1.0,256,5.5
+LI-Small,CYCLE,12,83,5.5,3.7,3.97,5.5,2.0,5,1.0,83,6.0
+LI-Small,FAN-IN,12,73,6.0,3.65,3.98,7.0,1.0,1,1.0,85,9.4
+LI-Small,FAN-OUT,19,149,7.0,3.46,3.98,8.0,3.0,5,1.0,169,4.7
+LI-Small,GATHER-SCATTER,12,150,12.5,6.67,7.96,13.5,2.0,3,1.0,158,7.0
+LI-Small,RANDOM,15,77,5.0,1.95,3.65,6.0,2.0,3,1.0,92,17.4
+LI-Small,SCATTER-GATHER,13,182,12.0,3.75,4.01,8.0,2.0,3,1.0,110,10.9
+LI-Small,STACK,18,180,6.0,2.84,4.45,9.0,2.0,11,1.0,264,9.1
