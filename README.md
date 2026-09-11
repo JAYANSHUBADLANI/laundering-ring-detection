@@ -1,5 +1,7 @@
 # Laundering rings on a transaction graph
 
+[![tests](https://github.com/JAYANSHUBADLANI/laundering-ring-detection/actions/workflows/tests.yml/badge.svg)](https://github.com/JAYANSHUBADLANI/laundering-ring-detection/actions/workflows/tests.yml)
+
 I built this to test one claim with measurements rather than assertion:
 
 > A ring's individual transactions look ordinary. So a model that scores each
