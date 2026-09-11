@@ -2,8 +2,8 @@ duckdb==1.5.5
 python-igraph==1.0.0
 pandas==2.2.2
 numpy==1.26.4
-scikit-learn==1.4.2
+scikit-learn>=1.5.0
 matplotlib==3.8.4
-pyarrow==21.0.0
-pytest==7.4.4
+pyarrow>=23.0.1
+pytest>=9.0.3
 networkx==3.2.1
