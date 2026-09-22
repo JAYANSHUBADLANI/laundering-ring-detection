@@ -195,7 +195,7 @@ pip install -r requirements.txt
 python scripts/load_duckdb.py      # both Small splits into DuckDB
 python scripts/verify_join.py      # the composite key join
 python scripts/run_baseline.py     # phases 2 and 3, all four model variants
-python -m pytest tests -q          # 25 tests, no network and no raw data
+python -m pytest tests -q          # 50 tests, no network and no raw data
 ```
 
 The raw files are not committed. Point `data/raw` at the extracted Kaggle
@@ -219,8 +219,9 @@ looking deterministic.
 - Cross currency amounts are never summed. Rings carry up to eleven currencies
   and any exchange rate table I invented would be fiction presented as precision.
 - No failure analysis of the rings the graph model still misses.
-- Tests cover the parser only. The join, the period logic and the evaluation
-  rules have none, which is the weakest part of this repository.
+- Tests cover the parser, the join, the period logic and the evaluation rules.
+  The feature code and the model fits have none and are checked only through the
+  results they produce, which is now the weakest part of this repository.
 
 ## Where I would push back on this myself
 

@@ -180,15 +180,20 @@ which degree and partner concentration see directly. The worst are chains, where
 every account has degree two and nothing is locally unusual. Fan in at 0.240 is
 a hub shape that should be easy and is not, and I have not run that down.
 
+## Join tests
+
+The join every number rests on now has 25 tests of its own in
+`tests/test_join.py`, built on hand made rows so the right answer is known by
+reading. Each column of both keys has a test where a transaction differs from a
+ring leg in that column alone and must not match, and the expected columns are
+written out in the test rather than read from the module, so dropping one from
+either key fails instead of shrinking the test list. Checked by deleting each
+key column in turn and confirming a failure every time. 50 tests in total.
+
 ## Pending
 
-- The README. Nothing in this repository is written for a reader yet, only for
-  me, and the phase 2 and 3 result above is the thing worth writing up.
 - A failure analysis: which rings the graph model still misses at the primary
   budget and whether they share a typology or a size.
-- Tests for the composite key join. The parser has 14, the period logic 5 and
-  the evaluation rules 6, so 25 in total, but the join that every number rests
-  on is still only verified by the script that reports it.
 - The Medium splits, to settle whether the LI-Small result is a real failure of
   the graph features at a low base rate or simply too few evaluable rings to
   measure. Config change, several hours of load and fit.
